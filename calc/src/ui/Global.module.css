@@ -8,10 +8,10 @@
 
 .header {
     width: 100%;
-    padding: 24px;
+    padding: 36px;
     background-color: rgb(203, 238, 226);
     color: black;
-    border: 2px solid black;
+    height: 60px;
 }
 
 
@@ -26,4 +26,8 @@ button {
     background-color: aquamarine;
     color: black;
     border: 2px solid black;
+}
+
+.clear > * {
+    width: 100%;
 }
