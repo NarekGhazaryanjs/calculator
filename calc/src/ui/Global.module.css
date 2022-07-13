@@ -1,0 +1,29 @@
+
+.container {
+    border: 2px solid black;
+    padding: 4px;
+    width: 30%;
+    margin-left: 35%;
+}
+
+.header {
+    width: 100%;
+    padding: 24px;
+    background-color: rgb(203, 238, 226);
+    color: black;
+    border: 2px solid black;
+}
+
+
+.main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+button {
+    padding: 24px;
+    background-color: aquamarine;
+    color: black;
+    border: 2px solid black;
+}
